@@ -16,3 +16,5 @@ const printOutCatBreed = breed => {
 
 // CHANGE 2: we're now passing two arguments into breedDetailsFromFile: breed string and a callback function
 breedDetailsFromFile('bombay', printOutCatBreed);
+
+module.exports = { printOutCatBreed, breedDetailsFromFile };
